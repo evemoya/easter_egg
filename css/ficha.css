@@ -13,7 +13,6 @@ html{
 }
 
 .ficha-juego > section{
-    
     display: flex;
     justify-content: space-evenly;
     padding: 0 40px;
