@@ -1,0 +1,92 @@
+
+
+#contacto{
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;  
+    padding: 40px 0;
+
+}
+
+.cont-titulo{
+    background: rgb(100, 100, 100);
+    text-align: center;
+    padding: 15px;
+    border-bottom: solid 5px rgb(225, 150, 45); 
+    border-radius: 8px 8px 0px 0px;
+    justify-content: center;
+    color: white;
+}
+
+.form-contacto{
+    width: 95%;
+    margin: center;
+    background: white;
+    max-width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    border: solid rgb(0, 0, 0);
+
+
+}
+
+.contenedor-input{
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+input{
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+textarea{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-registrar{
+    margin-top: 15px;
+    background: #f2f2f2;
+    color: black;
+    margin: 15px;
+    display: inline;
+    border-radius: 10px;
+    
+
+
+}
+
+
+
+/* creacion de columnas manuales*/
+.col-sm{
+    width: 40%;
+}
+
+.col-xl{
+    width: 80%;
+}
+
+.col-xll{
+    width: 80%;
+    height: 200px;
+}
+
+
+@media screen and (max-width:500px){
+    body{
+        margin-top: 50px;
+    }
+}

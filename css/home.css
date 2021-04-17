@@ -1,0 +1,47 @@
+/* Contenido de secciones en  Index  */
+
+.container a{
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+#bloque-juegos{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin: 30px;
+} 
+
+#bloque-juegos h2{
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+
+
+#bloque-juegos img{
+
+    width: 250px;
+    height: 250px;
+    border: solid 2px #333;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 10px 10px;
+    
+    }
+
+
+#bloque-juegos h4{
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
