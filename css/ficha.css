@@ -7,36 +7,207 @@ html{
     max-width: auto;
     margin: 20px auto;
     display: grid;
+    grid-column: auto;
     grid-gap: 20px;
-    height: 1000px;
+    
     
 }
 
 .ficha-juego > section{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 40px;
-    align-items: center;
-    border: solid 2px black;
+
 }
 
-.ficha-juego > section >section{
-    border: solid 2px red;
+.ficha-juego > section > #galeria-juego, #ficha-detalle{
     padding: 10px;
-    
-    
-}
-
-
-#galeria-juego{
-    max-width: 50%;
     display: flex;
-    justify-content: left;
-
-}
-
-#galeria-juego img{
-    width: 30%;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.ficha-juego > h3{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+
+}
+
+
+
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+/** Propiedades imagen */
+
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    margin: 20px auto;
+    
+}
+
+
+ul.slider li{
+    position: absolute;
+    opacity: 0;
+    width: auto;
+    height: inherit;
+    transition: opacity .5s;
+
+}
+
+ul.slider li img{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+
+
+
+/** Propiedades Botones */
+.menu-slide li{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-slide li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.menu-slideb li{
+    display: none;
+}
+
+.menu-slideb li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+/* Propiedades Video*/
+#fsec2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ico-vid{
+    display: none;
+}
+
+.video-resp{
+    width: 50%;
+    height: 50%;
+    border: none;
+    justify-content: center;
+    z-index: 1200;
+
+  }
+
+
+
+
+@media screen and (max-width: 1290px){
+    .ficha-juego > section{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: auto;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 10px;
+     }
+
+    .vid{
+        display: none;
+    }
+
+    .ico-vid{
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        text-decoration: none;
+        color: red;
+    }
+
+    
+
+
+    }
+     @media screen and (max-width: 900px){
+
+        #galeria-juego, #ficha-detalle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            border: none;
+            margin: auto;
+            
+        }
+
+        ul.slider {
+            display: none;
+        }
+
+
+        .menu-slide{
+            display: none;
+        }
+        .menu-slideb li{
+            display: inline-block;
+            text-align: center;
+            justify-content: center;
+
+     }
+
+}
+

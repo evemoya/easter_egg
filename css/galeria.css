@@ -23,8 +23,8 @@
 
 .galeria img{
     width: 100%;
-    vertical-align: top ;
     height: 300px;
+    vertical-align: top ;
     object-fit: cover;
     position: inherit;
     transition: transform 0.5s;
@@ -74,6 +74,7 @@
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
+    font-size: 20px ;
 }
 
 .flecha{
@@ -85,6 +86,7 @@
     height: 50px;   
     border-radius: 50%;
     line-height: 50px;
+    font-size: 20px;
 }
 
 @media screen and (max-width:400px){

@@ -1,10 +1,17 @@
 /* Contenido de secciones en  Index  */
 
-.container a{
+.home-text{
+    justify-content: center;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.home-text a{
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    color: black;
+    color:black;
 }
 #bloque-juegos{
     display: flex;
