@@ -15,14 +15,13 @@ menuBtn.click(function(){
 
   });
 
-
-
 // Funciones de contacto  
 // N1 Enviar informacion a sitio
 
 function enviar() { // Envia los datos de formulario a la direccion de correo * Incompleta
   alert('se ha enviado tu comentario, muchas gracias')
 }
+
 
 
 // Limpiar - limia el campo Target

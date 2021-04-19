@@ -44,8 +44,6 @@ h2{
     text-align: center;
     padding: 20px 0;
     margin-bottom: 15px;
-
-    
 }
 
 
@@ -63,17 +61,18 @@ p{
 }
 
 footer{
-    background:black;
+    background: rgba(51, 51, 51, .9);
     padding: 20px 0;
     text-align: center;
     margin-top: auto;
-    bottom: 0;
+    color: honeydew;
 }
 
-footer .container p{
+footer .foo-container a{
     height: 100%;
     width: 100%;
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
     font-size: 21px;

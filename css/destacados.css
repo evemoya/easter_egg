@@ -41,7 +41,6 @@ html{
 
 }
 
-
 #sec1:nth-child(1){
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
@@ -69,7 +68,6 @@ html{
     }
         
 }
-
 @media screen and (max-width: 500px){
     #sec1, #sec2, #sec3{
         height: 800px;
@@ -82,8 +80,6 @@ html{
         
     }
     
-
-
     .destacados img{
         height: 20%;
     }

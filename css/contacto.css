@@ -66,8 +66,6 @@ textarea{
 
 }
 
-
-
 /* creacion de columnas manuales*/
 .col-sm{
     width: 40%;
@@ -81,7 +79,6 @@ textarea{
     width: 80%;
     height: 200px;
 }
-
 
 @media screen and (max-width:500px){
     body{
