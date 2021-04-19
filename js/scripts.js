@@ -15,16 +15,9 @@ menuBtn.click(function(){
 
   });
 
-// Funciones de contacto  
-// N1 Enviar informacion a sitio
-
-function enviar() { // Envia los datos de formulario a la direccion de correo * Incompleta
-  alert('se ha enviado tu comentario, muchas gracias')
-}
 
 
-
-// Limpiar - limia el campo Target
+// Limpiar - limia el campo Target en formulario
 var ultimo = null;
 function marcar(elemento) {
   ultimo = elemento;
@@ -36,5 +29,20 @@ function limpiar() {
   	ultimo.value = "";
   }
 }
+
+
+// Alerta personalizada 
+
+// Funciones de contacto  
+// N1 Enviar informacion a sitio
+function enviar() { // alerta de formulario emitido
+  alert('se ha enviado tu comentario, muchas gracias')
+  }
+    
+
+
+  
+
+
 
 

@@ -1,0 +1,29 @@
+
+
+.everetpage section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 90%;
+    border: solid 3px green;
+    margin: auto;
+    max-width: 900px;
+    
+}
+
+#presentacion{
+    display: block;
+    position: static;
+    
+}
+
+#juego{
+    display: flex;
+    justify-content: center;
+}
+
+.everetpage section p{
+    margin: 10px;
+    text-align: center;
+    
+}
